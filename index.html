@@ -9,43 +9,48 @@
     background-color: black;
     color: white;
     font-family: sans-serif;
+    font-size: smaller;
+    min-height: 100%;
   }
   a {
     color: lightblue;
   }
-  .center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:  #181818;
   }
-  .video {
-    text-align: center;
+  #content-header {
+    width: 100%;
   }
-  .links {
-    text-align: center;
+  #inner-content {
+    margin: 20px;
   }
 </style>
 </head>
 <body>
-  <div class="center">
-    <img src="logo.png"/>
+  <div id="content">
+    <img id="content-header" src="header.jpg"/>
+
+    <div id="inner-content">
+      <h1>Eigenform</h1>
+
+      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2790267632/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://eigenform.bandcamp.com/track/lines">lines by Eigenform</a></iframe>
+
+      <p>
+        <a href="mailto:&#x68;&#x65;&#x6c;&#x6c;&#x6f;&#x40;&#x65;&#x69;&#x67;&#x65;&#x6e;&#x66;&#x6f;&#x72;&#x6d;&#x2e;&#x6e;&#x65;&#x74;">contact</a> |
+        <a href="https://eigenform.bandcamp.com">bandcamp</a> |
+        <a href="https://twitter.com/eigenformlive">twitter</a> |
+        <a href="https://www.instagram.com/eigenformlive/">instagram</a> |
+        <a href="https://www.facebook.com/eigenform">facebook</a> |
+        <a href="https://soundcloud.com/eigenformlive">soundcloud</a> |
+        <a href="https://mastodon.social/@eigenform">mastodon</a>
+      </p>
+
+      <div style="height: 20px"/>
+    </div>
+
   </div>
 
-  <div class="center">
-    <h1>Eigenform</h1>
-  </div>
-
-  <div class="center">
-    <p>Electronic punk music</p>
-  </div>
-
-  <div class="links">
-    <a href="https://eigenform.bandcamp.com">bandcamp</a> |
-    <a href="https://twitter.com/eigenformlive">twitter</a> |
-    <a href="https://www.instagram.com/eigenformlive/">instagram</a> |
-    <a href="https://www.facebook.com/eigenform">facebook</a> |
-    <a href="https://soundcloud.com/eigenformlive">soundcloud</a> |
-    <a href="https://mastodon.social/@eigenform">mastodon</a>
-  </div>
 </body>
 </html>
